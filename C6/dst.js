@@ -10,10 +10,11 @@ console.log(segundo);
 let persona = {nombre: "Jon", profesion: "QFB", edad: 34};
 
 
-let {nombre, edad} = persona;
+let {nombre, edad, profesion} = persona;
 
 console.log(persona);
 console.log(nombre);
 console.log(edad);
+console.log(profesion);
 
 
