@@ -34,7 +34,8 @@ let procesar = (url,agregarHttp) {
 
 }
 
+agregarHttp(url);
 
-//agregarHttp(url);
 
-procesar(["www.google.com","www.yahoo.com"], agregarHttp);
+
+
