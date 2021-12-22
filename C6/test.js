@@ -1,16 +1,12 @@
+let estudiantes = [
+    {nombre: 'John', promedio: 8.5, aprobado: true},
+    {nombre: 'Jane', promedio: 7, aprobado: true},
+    {nombre: 'June', promedio: 3, aprobado: false}
+];
+
+let profesor = "Jon";
 
 
-
-function agregarHttp(url){
-let esArray = Array.isArray(url);
-if (esArray = true){
-    console.log('Esto es un Array');
-}else {
-    console.log('Se hizo lo que se pudo');
-}
-
-    
-    
-}
-    
- agregarHttp(54);
+//let comprobar = Array.isArray(estudiantes);
+let comprobar = Array.isArray(profesor);
+console.log(comprobar);
