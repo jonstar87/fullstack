@@ -19,4 +19,4 @@ let desaprobados = estudiantes.filter(function(estudiante){
 
 });
 
-console.log(desaprobados);
+//console.log(desaprobados);

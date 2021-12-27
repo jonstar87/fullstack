@@ -19,7 +19,15 @@ let autos =[
          patente:'JJK116', 
          vendido: false }
  ];
+
   
- console.log(autos);
- 
- module.exports = autos;
+let patenteB = 'APL123';
+
+   
+let  buscarAuto = autos.filter(function(auto){
+       return auto.patente == patenteB;
+            
+    });
+    
+
+console.log (buscarAuto);

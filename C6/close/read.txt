@@ -1,9 +1,54 @@
 Etapa 1
-En esta primera etapa, necesitamos requerir tu módulo autos que se encuentra en la misma 
+
+En esta primera etapa, necesitamos requerir tu módulo 
+autos que se encuentra en la misma 
 carpeta del archivo donde estás trabajando.
 
-Además, necesitarás crear un objeto literal llamado concesionaria 
-que contendrá todas las funcionalidades que el cliente solicita.
+Además, necesitarás crear un objeto literal llamado 
+concesionaria 
+que contendrá todas las funcionalidades que el 
+cliente solicita.
 
-Por último, nuestro objeto literal debe tener un atributo llamado 
-autos que contenga la lista de automóviles importada anteriormente.
+Por último, nuestro objeto literal debe tener un 
+atributo llamado 
+autos que contenga la lista de automóviles 
+importada anteriormente.
+
+Etapa 2
+
+Ahora que la concesionaria tiene los autos,
+ es posible crear la funcionalidad buscarAuto 
+ que reciba por parámetro la patente y devuelva
+  el auto al cual le corresponde. En caso de no
+   encontrar el mismo, deberá retornar null.
+
+Para que todo funcione tenés que agregar el código 
+que escribiste en el ejercicio anterior.
+
+
+Etapa 3
+Ahora, María les pide que agreguen la funcionalidad 
+de venderAuto que recibe la patente y, en caso de 
+encontrar al automóvil, le asigna el estado de vendido.
+
+¿Cómo lo resuelven?
+
+Recordatorio: Para comenzar tenés que agregar el 
+código que escribiste en el ejercicio anterior. 
+Para resolver esta nueva funcionalidad, 
+tendrás que utilizar la función buscarAuto.
+
+Funcionalidad extra (ETAPA 4)
+
+La primera es poder contar, como concesionaria, 
+con la habilidad de poder tener la lista de autos 
+para la venta. A lo cual, María, cree que es una 
+tarea sencilla que Juan y vos pueden encarar solos,
+usando la función autosParaLaVenta, aunque por las
+dudas ella les recuerda que no deberían de aparecer 
+los autos que ya fueron vendidos.
+
+Para comenzar, tenés que agregar el código que 
+escribiste en el ejercicio anterior. Tené en cuenta 
+que estamos optimizando nuestro código, por lo cual, 
+deberíamos utilizar el método filter.

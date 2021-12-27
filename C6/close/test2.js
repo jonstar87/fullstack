@@ -19,7 +19,22 @@ let autos =[
          patente:'JJK116', 
          vendido: false }
  ];
+
   
- console.log(autos);
+
+ const concesionaria = {
+    autos: autos,
+   buscarAuto: function (patenteB){
+   
+    autos.forEach(function(auto){
+        if (auto.patente == patenteB){
+            return auto;
+            console.log('El auto es: ' + auto. marca + ' ' +auto.modelo);
+        }else{
+            return null;
+        }
+    })
+   }
+};
  
- module.exports = autos;
+concesionaria.buscarAuto('APL123');

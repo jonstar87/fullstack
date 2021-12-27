@@ -19,7 +19,19 @@ let autos =[
          patente:'JJK116', 
          vendido: false }
  ];
+
   
- console.log(autos);
+//console.log(autos);
  
- module.exports = autos;
+function buscarAuto (patenteB){
+   
+    autos.forEach(function(auto){
+        if (auto.patente == patenteB){
+            console.log(auto);
+        }else{
+            console.log('No existe el auto');
+        }
+    })
+   }
+
+buscarAuto('APL123');
