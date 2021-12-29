@@ -4,7 +4,7 @@ app.use(express.static('public'));
 
 
 app.listen(3050, ()=>{
-    console.log('Servidor funcionando ML by profes');
+    console.log('Servidor funcionando ML by profes en puerto 3050');
 });
 
 app.get('/home', (req,res)=>{
