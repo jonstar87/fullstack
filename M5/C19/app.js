@@ -1,10 +1,6 @@
-const controlador = {
+const express = require('express');
+const app = express();
 
-    index: (req, res) => {
-        res.send("Index de productos");
-    }
-};
+const rutasProductos = require('./routes/productos');
 
-module.exports = controlador;
-
-
+app.use('/productos', rutasProductos);
